@@ -1,0 +1,24 @@
+{
+  "name": "HackerRank_Automation",
+  "version": "1.0.0",
+  "description": "This project is about automating the login and submission process in HackerRank a coding platform. This is done using Puppeteer.",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^13.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shravanjp/HackerRank_Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shravanjp/HackerRank_Automation/issues"
+  },
+  "homepage": "https://github.com/shravanjp/HackerRank_Automation#readme"
+}
