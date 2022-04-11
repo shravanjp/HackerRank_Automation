@@ -38,6 +38,7 @@ To run
 ## Demo
 
 
+`Note : Please keep the playback speed at 2X` 
 
 
 https://user-images.githubusercontent.com/68063550/162710734-a8317461-bb8b-4bf6-8368-54bf1c9122e2.mp4
