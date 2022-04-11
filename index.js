@@ -1,8 +1,9 @@
-const puppeteer=require('puppeteer');
+const puppeteer = require('puppeteer');
 const codeObj = require('./code.js');
-const targetLink="https://www.hackerrank.com/auth/login";
-const email="vinodaj1974@gmail.com";
-const password="test123";
+const targetLink = "https://www.hackerrank.com/auth/login";
+
+const email = "Include your email here";
+const password = "give the password";
 let page;
 
 (async function(){
@@ -15,12 +16,12 @@ let page;
 
       page = await (await browserInstance).newPage();
       await page.goto(targetLink);
-      await page.type("input[id='input-1']",email,{delay : 0});
-      await page.type("input[type='password']",password,{delay : 0});
-      await page.click("button[data-analytics='LoginPassword']",{delay : 0});
+      await page.type("input[id='input-1']",email,{delay : 30});
+      await page.type("input[type='password']",password,{delay : 30});
+      await page.click("button[data-analytics='LoginPassword']",{delay : 30});
       await waitAndClick(".topic-card a[data-attr1='algorithms']",page);
       await waitAndClick("input[value='warmup']",page);
-      await page.waitForTimeout(50);
+      await page.waitForTimeout(30);
       const allQuestions = await page.$$(".ui-btn.ui-btn-normal.primary-cta.ui-btn-line-primary.ui-btn-styled", {delay : 10});
       for(let i = 0; i <= 0; i++){
         questionSolver(allQuestions[i], codeObj.answers[i]);
@@ -43,10 +44,10 @@ async function waitAndClick(selector,currPage){
 
 async function questionSolver(question, answer){
     await question.click();
-    waitAndClick('.monaco-editor.no-user-select.vs',page);
-    waitAndClick('.checkbox-input',page);
+    await waitAndClick('.monaco-editor.no-user-select.vs',page);
+    await waitAndClick('.checkbox-input',page);
     await page.waitForSelector('.input.text-area.custominput.auto-width');
-    await page.type('.input.text-area.custominput.auto-width', answer , {delay:10});
+    await page.type('.input.text-area.custominput.auto-width', answer , {delay:0});
     await page.keyboard.down('Control');
     await page.keyboard.press('A');
     await page.keyboard.press('X');

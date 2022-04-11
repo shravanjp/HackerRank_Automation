@@ -15,5 +15,5 @@ module.exports={
         
         cout << sum_of_array;
         return 0;
-    }`,`2 Testing`]
+    }`]
 }
