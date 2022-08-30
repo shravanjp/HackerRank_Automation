@@ -3,7 +3,13 @@
 
 This project is about automating the login and code submission process in Hackerrank(coding platform) using Puppeteer.
 
+![GitHub last commit](https://img.shields.io/github/last-commit/shravanjp/HackerRank_Automation) ![GitHub repo size](https://img.shields.io/github/repo-size/shravanjp/HackerRank_Automation) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
+## Tech Stack
+
+nodejs, puppeteer
+
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=HackerRank_Automation.visitor-badge)
 
 
 ## Run Locally
@@ -31,8 +37,6 @@ To run
 ```bash
   node index.js
 ```
-
-
 
 
 ## Demo
