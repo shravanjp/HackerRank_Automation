@@ -49,6 +49,8 @@ https://user-images.githubusercontent.com/68063550/162710734-a8317461-bb8b-4bf6-
 
 
 
+## 🔗 Links
 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shravan-j-poojary)
 
 
